@@ -1,0 +1,59 @@
+.home {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('https://gfycat.com/abletastycirriped.gif');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text p {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.text span {
+  color: #e31b6d;
+}
+.intro .intro__button {
+  margin-top: 20px;
+  padding: 1.2rem 2.7rem;
+  background-color: transparent;
+  border: #fff solid 1.2px;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+.intro__button svg {
+  margin-left: 4px;
+}
+.intro__button:hover {
+  background-color: turquoise;
+  transition: ease-in-out all 350ms;
+}
+.intro__button:hover svg {
+  transform: rotate(90deg);
+  transition: all ease-in-out 350ms;
+}
+@media (max-width: 700px) {
+  .text p {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .intro .intro__button {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+}

@@ -1,84 +1,52 @@
 {
-	"main": {
-		"name": "Samuel Okoye",
-		"occupation": "Front End Web Developer",
-		"description": "I am a Front End Web Developer Specialized in HTML/CSS, Javascript and React ",
-		"image": "profilepic.jpg",
-		"bio": "Hi there! I am Samuel! I've been coding for over 2 years now. Working with front end technologies such as HTML/CSS, Javascript, React, Redux toolkit and I have occasionally used firebase as backend. My vision is to deliver and work optimally in any team, organisation that I found myself in, also deliver a high performing and efficent services to clients. My long-term goal is to keep learning also make a name in the tech industry.",
-		"contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-		"email": "okoyechibuike048@gmail.com",
-		"phone": "+2349061830160",
-		"address": {
-			"country": "Nigeria",
-			"city": "Enugu",
-			"state": "Enugu",
-			"zip": "400"
-		},
-		"website": "https://www.papareact.com/course",
-		"resumedownload": "http://papareact.com",
-		"social": [
-			{
-				"name": "linkedin",
-				"url": "https://www.linkedin.com/in/okoye-chibuike-samuel-179323223/",
-				"className": "fa fa-linkedin"
-			},
-			{
-				"name": "twitter",
-				"url": "https://twitter.com/Samuel_Okoye121",
-				"className": "fa fa-twitter"
-			},
-			{
-				"name": "github",
-				"url": "https://github.com/sammy-jeff",
-				"className": "fa fa-github"
-			}
-		]
-	},
-	"resume": {
-		"skillmessage": "My Programming Language Proficiency",
-		"education": [
-			{
-				"school": "University of Port Harcourt",
-				"degree": "Bachelor's Degree, Engineering",
-				"graduated": "July 2020"
-			}
-		],
-		"work": [
-			{
-				"company": "UPWORK",
-				"title": "Freelancer",
-				"years": "Sept 2021 - Present",
-				"description": "Builds High Performing Web Applications"
-			}
-		],
-		"skills": [
-			{
-				"name": "ReactJs",
-				"level": "100%"
-			},
-
-			{
-				"name": "Git",
-				"level": "70%"
-			},
-			{
-				"name": "JavaScript",
-				"level": "99%"
-			},
-			{
-				"name": "Web Development",
-				"level": "95%"
-			}
-		]
-	},
-	"portfolio": {
-		"projects": [
-			{
-				"title": "Travel Agency Site (HTML/CSS,JS)",
-				"category": "",
-				"image": "travel.png",
-				"url": "https://travel-made-easy.netlify.app"
-			}
-		]
-	}
+  "projects": [
+    {
+      "id": 1,
+      "title": "Travel Agency Site (HTML/CSS,JS)",
+      "category": "JavaScript",
+      "image": "travelImg.jpg",
+      "description": "This is a travel website developed with pure HTML/CSS and Vanilla JavaScript",
+      "url": "https://travel-made-easy.netlify.app"
+    },
+    {
+      "id": 2,
+      "title": "Infinte-Connect Social App",
+      "category": "React",
+      "image": "Company-for-Mobile-App-Development.jpg",
+      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
+      "url": "https://infinite-connect.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "Infinte-Connect Social App",
+      "category": "React",
+      "image": "Company-for-Mobile-App-Development.jpg",
+      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
+      "url": "https://infinite-connect.netlify.app/"
+    },
+    {
+      "id": 4,
+      "title": "Infinte-Connect Social App",
+      "category": "React",
+      "image": "Company-for-Mobile-App-Development.jpg",
+      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
+      "url": "https://infinite-connect.netlify.app/"
+    },
+    {
+      "id": 5,
+      "title": "Infinte-Connect Social App",
+      "category": "React",
+      "image": "Company-for-Mobile-App-Development.jpg",
+      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
+      "url": "https://infinite-connect.netlify.app/"
+    },
+    {
+      "id": 6,
+      "title": "Infinte-Connect Social App",
+      "category": "React",
+      "image": "Company-for-Mobile-App-Development.jpg",
+      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
+      "url": "https://infinite-connect.netlify.app/"
+    }
+  ]
 }
