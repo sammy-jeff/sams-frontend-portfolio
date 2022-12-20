@@ -6,7 +6,7 @@ import styles from '../Css/nav.module.css'
 import Lists from './Lists'
 function Nav() {
   const [width, setWidth] = useState(window.innerWidth)
-  const breakPoint = 700
+  const breakPoint = 600
   const [showMenu, setShowMenu] = useState(false)
   useEffect(() => {
     window.addEventListener('scroll', () => setWidth(window.innerWidth))

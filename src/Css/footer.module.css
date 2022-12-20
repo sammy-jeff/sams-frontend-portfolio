@@ -34,6 +34,15 @@
 .footer p {
   margin-top: 12px;
   text-align: center;
-  color: #ac1d58;
+  color: #8f9aa7;
   font-size: 1.1rem;
+}
+.footer span {
+  color: #ac1d58;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .footer {
+    min-height: 15vh;
+  }
 }

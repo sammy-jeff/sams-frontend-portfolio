@@ -62,8 +62,7 @@
 .form button {
   padding: 0.7rem 1.1rem;
   margin-top: 15px;
-
-  width: 30%;
+  /* width: 30%; */
   align-self: flex-end;
   color: #fff;
   background: transparent;
@@ -72,9 +71,26 @@
   text-transform: uppercase;
   font-size: 0.8rem;
   text-align: center;
+  cursor: pointer;
 }
 @media (max-width: 599px) {
   .contact img {
-    top: -20px;
+    top: -25px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .contact {
+    min-height: 50vh;
+  }
+  .contact img {
+    top: -38px;
+  }
+  .contact .form {
+    width: max(50%, 550px);
+  }
+}
+@media (max-width: 360px) {
+  .contact img {
+    top: -21px;
   }
 }

@@ -118,3 +118,11 @@
     margin-top: 10px;
   }
 }
+
+@media (min-width: 600px) and (max-width: 900px) {
+  /* .project__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  } */
+}

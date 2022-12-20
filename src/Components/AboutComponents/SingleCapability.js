@@ -15,7 +15,7 @@ const iconVariants = {
     opacity: 1,
     rotate: 0,
     ease: 'easeOut',
-    transition: { duration: 2 },
+    transition: { duration: 1 },
   },
 }
 const aboutVariants = {

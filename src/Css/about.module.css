@@ -140,7 +140,7 @@
     font-size: 1.1rem;
   }
   .single__capability p {
-    font-size: 0.77rem;
+    font-size: 0.9rem;
     max-width: 100%;
     line-height: normal;
   }
@@ -164,5 +164,17 @@
   }
   .individual__skill p {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .capabilities {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bottom {
+    grid-template-columns: 1fr;
+  }
+  .me img {
+    width: 50%;
   }
 }

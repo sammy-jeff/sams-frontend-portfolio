@@ -14,7 +14,7 @@ const projectVariant = {
     opacity: 1,
     scale: 1,
     ease: 'easeOut',
-    transition: { duration: 2 },
+    transition: { duration: 1.5 },
   },
 }
 function SingleProject({ project }) {

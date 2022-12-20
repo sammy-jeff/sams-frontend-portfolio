@@ -1,4 +1,4 @@
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleUp, faCopyright } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-scroll'
@@ -24,7 +24,12 @@ function Footer() {
           </a>
         </div>
         <p>
-          Okoye Samuel <span>{new Date().getFullYear()}</span>
+          Okoye Samuel{' '}
+          <span>
+            {' '}
+            <FontAwesomeIcon icon={faCopyright} />
+            {new Date().getFullYear()}
+          </span>
         </p>
       </Link>
     </footer>

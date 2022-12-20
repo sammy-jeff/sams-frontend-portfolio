@@ -15,38 +15,6 @@
       "image": "Company-for-Mobile-App-Development.jpg",
       "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
       "url": "https://infinite-connect.netlify.app/"
-    },
-    {
-      "id": 3,
-      "title": "Infinte-Connect Social App",
-      "category": "React",
-      "image": "Company-for-Mobile-App-Development.jpg",
-      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
-      "url": "https://infinite-connect.netlify.app/"
-    },
-    {
-      "id": 4,
-      "title": "Infinte-Connect Social App",
-      "category": "React",
-      "image": "Company-for-Mobile-App-Development.jpg",
-      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
-      "url": "https://infinite-connect.netlify.app/"
-    },
-    {
-      "id": 5,
-      "title": "Infinte-Connect Social App",
-      "category": "React",
-      "image": "Company-for-Mobile-App-Development.jpg",
-      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
-      "url": "https://infinite-connect.netlify.app/"
-    },
-    {
-      "id": 6,
-      "title": "Infinte-Connect Social App",
-      "category": "React",
-      "image": "Company-for-Mobile-App-Development.jpg",
-      "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
-      "url": "https://infinite-connect.netlify.app/"
     }
   ]
 }
