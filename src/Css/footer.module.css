@@ -20,17 +20,20 @@
 .socials {
   display: flex;
   justify-content: center;
-  color: #fff;
+  /* color: #fff; */
   margin-top: 15px;
 }
-.socials svg {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  margin-left: 10px;
-  background-color: #fff;
-  border: none;
+.socials a {
+  text-decoration: none;
 }
+.socials a {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #0f1114;
+  margin-left: 10px;
+}
+
 .footer p {
   margin-top: 12px;
   text-align: center;
