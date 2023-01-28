@@ -1,4 +1,4 @@
-import { useAnimation } from 'framer-motion/dist/framer-motion'
+import { useAnimation } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
 function useAnimateComponent(ref, control) {

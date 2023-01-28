@@ -5,7 +5,7 @@ import {
   faRocket,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useAnimation, motion } from 'framer-motion/dist/framer-motion'
+import { useAnimation, motion } from 'framer-motion'
 import React, { useMemo, useRef } from 'react'
 import styles from '../../Css/about.module.css'
 import useAnimateComponent from '../../customs/useAnimateComponent'

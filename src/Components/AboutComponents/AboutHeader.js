@@ -1,4 +1,4 @@
-import { useAnimation, motion } from 'framer-motion/dist/framer-motion'
+import { useAnimation, motion } from 'framer-motion'
 import React, { useMemo, useRef } from 'react'
 import useAnimateComponent from '../../customs/useAnimateComponent'
 import styles from '../../Css/about.module.css'

@@ -2,7 +2,7 @@ import React, { useMemo, useRef, useState } from 'react'
 import emailSetup from '../../emailKey'
 import { sendForm } from '@emailjs/browser'
 import styles from '../../Css/contact.module.css'
-import { useAnimation, motion } from 'framer-motion/dist/framer-motion'
+import { useAnimation, motion } from 'framer-motion'
 import useAnimateComponent from '../../customs/useAnimateComponent'
 const formVariant = {
   hidden: {

@@ -1,7 +1,7 @@
 import styles from '../../Css/projects.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import { motion, useAnimation } from 'framer-motion/dist/framer-motion'
+import { motion, useAnimation } from 'framer-motion'
 import { useMemo, useRef } from 'react'
 import useAnimateComponent from '../../customs/useAnimateComponent'
 const projectVariant = {

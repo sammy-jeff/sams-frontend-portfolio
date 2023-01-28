@@ -1,5 +1,5 @@
 import React, { useMemo, useRef } from 'react'
-import { useAnimation, motion } from 'framer-motion/dist/framer-motion'
+import { useAnimation, motion } from 'framer-motion'
 import useAnimateComponent from '../../customs/useAnimateComponent'
 const contactHeadVariants = {
   hidden: { opacity: 0, x: -200 },

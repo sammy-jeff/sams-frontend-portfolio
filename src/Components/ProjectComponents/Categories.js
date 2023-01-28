@@ -1,6 +1,6 @@
 import React, { useMemo, useRef } from 'react'
 import styles from '../../Css/projects.module.css'
-import { motion, useAnimation } from 'framer-motion/dist/framer-motion'
+import { motion, useAnimation } from 'framer-motion'
 import useAnimateComponent from '../../customs/useAnimateComponent'
 const categoryVariant = {
   initial: {
