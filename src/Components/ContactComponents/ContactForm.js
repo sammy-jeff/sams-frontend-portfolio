@@ -37,10 +37,10 @@ function ContactForm() {
       return
     setLoading(true)
     sendForm(
-      emailSetup.SERVICE_ID,
-      emailSetup.TEMPLATE_ID,
+      emailSetup.serviceId,
+      emailSetup.templateId,
       formRef.current,
-      '2t8PbpSN2tiEiqO4t'
+      'O9rBTGukJBAqfX8vY'
     ).then(
       (res) => {
         setLoading(false)
