@@ -14,7 +14,7 @@
       "category": "React",
       "image": "Company-for-Mobile-App-Development.jpg",
       "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
-      "url": "https://infinite-connect.vercel.app/"
+      "url": "https://infinite-connect.netlify.app/"
     }
   ]
 }
