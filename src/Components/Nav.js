@@ -1,46 +1,28 @@
-import { faListDots } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-scroll'
+import React, {  useEffect, useState } from 'react'
+
 import styles from '../Css/nav.module.css'
 import Lists from './Lists'
 function Nav() {
-  const [width, setWidth] = useState(window.innerWidth)
-  const breakPoint = 600
-  const [showMenu, setShowMenu] = useState(false)
-  useEffect(() => {
-    window.addEventListener('scroll', () => setWidth(window.innerWidth))
-    return () =>
-      window.removeEventListener('scroll', () => setWidth(window.innerWidth))
-  }, [])
+  const [activeClass,setActiveClass] = useState(false)
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>setActiveClass(false))
+    window.removeEventListener("scroll",()=>setActiveClass(false))
+  },[])
   return (
-    <div className={styles.topMost}>
+    <header className={styles.topMost}>
       <nav className={styles.nav__container}>
-        {width > breakPoint ? (
-          <ul className={styles.lists}>
-            <Lists setShowMenu={setShowMenu} />
+        <div className={styles.toggle_container}>
+        <FontAwesomeIcon icon={activeClass?faTimes:faBars} onClick={()=>setActiveClass(!activeClass)}/>
+        </div>
+        <div className={`${styles.nav_elements} ${activeClass&&styles.active_class}`}>
+          <ul>
+            <Lists/>
           </ul>
-        ) : (
-          <>
-            <FontAwesomeIcon
-              icon={faListDots}
-              className={styles.menu__icon}
-              onClick={() => {
-                setShowMenu(!showMenu)
-              }}
-            />
-            {}
-          </>
-        )}
+        </div>
       </nav>
-      {showMenu && (
-        <nav className={styles.nav__small}>
-          <ul className={styles.small__list}>
-            <Lists setShowMenu={setShowMenu} />
-          </ul>
-        </nav>
-      )}
-    </div>
+    </header>
   )
 }
 

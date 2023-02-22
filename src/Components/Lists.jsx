@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import styles from '../Css/nav.module.css'
-function Lists({ setShowMenu }) {
+function Lists() {
   return (
     <>
-      <li onClick={() => setShowMenu(false)}>
+      <li >
         <Link
           activeClass={styles.active}
           smooth
           spy
           to='home'
-          onClick={() => setShowMenu(false)}>
+     >
           Home
         </Link>
       </li>
@@ -20,7 +20,7 @@ function Lists({ setShowMenu }) {
           smooth
           spy
           to='about'
-          onClick={() => setShowMenu(false)}>
+          >
           About
         </Link>
       </li>
@@ -30,7 +30,7 @@ function Lists({ setShowMenu }) {
           smooth
           spy
           to='projects'
-          onClick={() => setShowMenu(false)}>
+          >
           Projects
         </Link>
       </li>
@@ -40,7 +40,7 @@ function Lists({ setShowMenu }) {
           smooth
           spy
           to='contact'
-          onClick={() => setShowMenu(false)}>
+          >
           Contact
         </Link>
       </li>
