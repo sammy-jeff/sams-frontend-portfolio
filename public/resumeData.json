@@ -15,6 +15,14 @@
       "image": "Company-for-Mobile-App-Development.jpg",
       "description": "This is a social media application developed with ReactJS, firebase,redux-toolkit,CSS module. Visit to behold all its exciting features",
       "url": "https://infinite-connect.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Kulenga website",
+      "category": "Next",
+      "image": "kulenga-logo.png",
+      "description": "Official website of Kulenga.org",
+      "url": "https://www.kulenga.org"
     }
   ]
 }

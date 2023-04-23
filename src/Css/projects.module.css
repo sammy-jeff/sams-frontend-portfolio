@@ -53,12 +53,13 @@
   justify-content: center;
   margin-top: 30px;
   flex-wrap: wrap;
-
+  gap: 10px;
   min-height: 50vh;
   padding: 3rem 4rem;
 }
 .single__project {
   position: relative;
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 10%);
 }
 
 .single__project img {
