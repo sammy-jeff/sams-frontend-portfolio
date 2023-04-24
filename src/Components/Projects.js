@@ -7,7 +7,8 @@ import SingleProject from './ProjectComponents/SingleProject'
 function Projects() {
   const [data, setData] = useState([])
   const [categories, setCategories] = useState([])
-  const [activeIndex, setActiveIndex] = useState(0)
+  // const [activeIndex, setActiveIndex] = useState(0)
+  const [selectedValue,setSelectedValue] = useState("all")
   const [filteredProjects, setFilteredProjects] = useState([])
   useEffect(() => {
     const getData = async () => {
@@ -30,14 +31,14 @@ function Projects() {
     setCategories(projectCategoryButton)
     setFilteredProjects(data)
   }, [data])
-
-  const handleBtn = (e, index) => {
-    setActiveIndex(index)
-    const category = e.currentTarget.dataset.id
+console.log(selectedValue);
+  const handleChange= (value) => {
+    setSelectedValue(value)
+ 
     const menuCategory = data?.projects?.filter((dat) => {
-      if (dat?.category === category) return dat
+      if (dat?.category === value) return dat
     })
-    return category === 'all'
+    return value === 'all'
       ? setFilteredProjects(data)
       : setFilteredProjects({ projects: menuCategory })
   }
@@ -49,8 +50,8 @@ function Projects() {
       <div className={styles.project__main}>
         <Categories
           categories={categories}
-          activeIndex={activeIndex}
-          handleBtn={handleBtn}
+          selectedValue={selectedValue}
+          handleChange={handleChange}
         />
         <div className={styles.project__list}>
           {filteredProjects?.projects?.map((project) => (

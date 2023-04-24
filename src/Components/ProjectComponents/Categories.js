@@ -13,7 +13,7 @@ const categoryVariant = {
     x: 0,
   },
 }
-function Categories({ categories, activeIndex, handleBtn }) {
+function Categories({ categories, selectedValue, handleChange }) {
   const target = useRef()
   const control = useAnimation()
   const controlMemo = useMemo(() => control, [control])
@@ -25,15 +25,22 @@ function Categories({ categories, activeIndex, handleBtn }) {
       initial='hidden'
       animate={control}
       className={styles.categories}>
-      {categories?.map((category, i) => (
-        <button
-          key={i}
-          data-id={category}
-          className={activeIndex === i ? styles.active : ''}
-          onClick={(e) => handleBtn(e, i)}>
+        <label htmlFor='filter'>
+          Filter Projects:
+        </label>
+        <select value={selectedValue} id="filter" onChange={(e) => handleChange(e.target.value)}>
+          
+        {categories?.map((category) => (
+         <option
+          value={category}
+          key={category}
+          // data-id={category}
+          // className={activeIndex === i ? styles.active : ''}
+          >
           {category}
-        </button>
+        </option>
       ))}
+        </select>
     </motion.div>
   )
 }
