@@ -23,6 +23,14 @@
       "image": "kulenga-logo.png",
       "description": "Official website of Kulenga.org",
       "url": "https://www.kulenga.org"
+    },
+    {
+      "id": 4,
+      "title": "KulengaLabs website",
+      "category": "Next",
+      "image": "logo-coloured-re-1.jpg",
+      "description": "Official website of KulengaLabs",
+      "url": "https://www.kulengalabs.com"
     }
   ]
 }
