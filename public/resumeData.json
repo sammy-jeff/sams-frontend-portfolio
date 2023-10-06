@@ -1,12 +1,12 @@
 {
   "projects": [
-    {
-      "id": 1,
-      "title": "Travel Agency Site (HTML/CSS,JS)",
-      "category": "JavaScript",
-      "image": "travelImg.jpg",
-      "description": "This is a travel website developed with pure HTML/CSS and Vanilla JavaScript",
-      "url": "https://travel-made-easy.netlify.app"
+   {
+      "id": 5,
+      "title": "Infinite-Shops",
+      "category": "Next",
+      "image": "transparent-logo.webp",
+      "description": "",
+      "url": "https://infinite-shops.vercel.app"
     },
     {
       "id": 2,
@@ -17,6 +17,14 @@
       "url": "https://infinite-connect.vercel.app/"
     },
     {
+      "id": 4,
+      "title": "KulengaLabs website",
+      "category": "Next",
+      "image": "logo-coloured-re-1.jpg",
+      "description": "Official website of KulengaLabs",
+      "url": "https://www.kulengalabs.com"
+    },
+    {
       "id": 3,
       "title": "Kulenga website",
       "category": "Next",
@@ -25,12 +33,12 @@
       "url": "https://www.kulenga.org"
     },
     {
-      "id": 4,
-      "title": "KulengaLabs website",
-      "category": "Next",
-      "image": "logo-coloured-re-1.jpg",
-      "description": "Official website of KulengaLabs",
-      "url": "https://www.kulengalabs.com"
+      "id": 1,
+      "title": "Travel Agency Site (HTML/CSS,JS)",
+      "category": "JavaScript",
+      "image": "travelImg.jpg",
+      "description": "This is a travel website developed with pure HTML/CSS and Vanilla JavaScript",
+      "url": "https://travel-made-easy.netlify.app"
     }
   ]
 }

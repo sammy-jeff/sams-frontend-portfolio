@@ -34,7 +34,6 @@ function Projects() {
 console.log(selectedValue);
   const handleChange= (value) => {
     setSelectedValue(value)
- 
     const menuCategory = data?.projects?.filter((dat) => {
       if (dat?.category === value) return dat
     })
